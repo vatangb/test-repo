@@ -1,0 +1,16 @@
+pipeline {
+    agent master
+    stages{
+        stage('Pull'){
+            steps{
+                git 'https://github.com/vatangb/test-repo.git'
+            }
+        }
+        stage{Build}{
+            stage{
+                echo 'Build Successful for Job2'
+            }
+        }
+    }
+
+}
