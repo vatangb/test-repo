@@ -13,11 +13,11 @@ pipeline{
             }
         stage('Test') {
             steps {
-                sh 'ls'
+                echo 'Test Successful'
             }
          stage('Deploy') {
             steps {
-                sh 'ls'
+                echo 
             } 
         }
     }
