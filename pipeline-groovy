@@ -8,7 +8,7 @@ pipeline {
         }
         stage{Build}{
             stage{
-                echo 'Successful for Job2'
+                echo 'Successfully '
             }
         }
     }
