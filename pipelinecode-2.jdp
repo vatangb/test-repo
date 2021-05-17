@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('gitlab-pull'){
+        stage('github-pull'){
             
         steps {
             git credentialsId: 'gitlab', url: 'https://gitlab.com/vatangb/test-repo.git'
