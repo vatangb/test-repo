@@ -11,7 +11,7 @@ pipeline{
             steps {
                 sh 'ls'
             }
-        stage('Build') {
+        stage('Test') {
             steps {
                 sh 'ls'
             }
