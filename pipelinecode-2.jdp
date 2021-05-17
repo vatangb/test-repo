@@ -15,7 +15,7 @@ pipeline{
             steps {
                 sh 'ls'
             }
-         stage('list-files') {
+         stage('Deploy') {
             steps {
                 sh 'ls'
             } 
