@@ -7,11 +7,11 @@ pipeline{
             git credentialsId: 'gitlab', url: 'https://gitlab.com/vatangb/test-repo.git'
             }
         }
-        stage('list-files') {
+        stage('Build') {
             steps {
                 sh 'ls'
             }
-        stage('list-files') {
+        stage('Build') {
             steps {
                 sh 'ls'
             }
