@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Pull'){
             steps{
-                e
+                echo '
             }
         }
         stage{Build}{
