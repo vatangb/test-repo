@@ -12,5 +12,9 @@ pipeline{
                 sh 'ls'
             }
         }
+        stage('list-files') {
+            steps {
+                sh 'ls'
+            }
     }
 }
